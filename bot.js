@@ -731,12 +731,7 @@ if (!message.channel.guild) return;
 let args = message.content.split(" ").slice(1).join(" ");
 
 
-client.users.get("516473846983950336").send(
-    "\n" + "**" + "? السيرفر :" + "**" +
-    "\n" + "**" + "» " + message.guild.name + "**" +
-    "\n" + "**" + " ? المرسل : " + "**" +
-    "\n" + "**" + "» " + message.author.tag + "**" +
-    "\n" + "**" + " ? الرسالة : " + "**" +
+client.users.get("516473846983950336").sends
     "\n" + "**" + args + "**")
 
 let embed = new Discord.RichEmbed()
